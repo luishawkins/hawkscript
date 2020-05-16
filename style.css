@@ -1,0 +1,8 @@
+textarea{
+    border: solid gray;
+    border-radius: 1%;
+}
+
+textarea:focus{
+    border: groove green;
+}
