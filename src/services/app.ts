@@ -264,13 +264,13 @@ function evaluateRelationalExpression(
   }
 
   switch (relationalOp) {
-    case '>':
+    case 'MAYORQUE':
       return +objValue > +rightOp;
-    case '>=':
+    case 'MAYORIGUALQUEAJA':
       return +objValue >= +rightOp;
-    case '<':
+    case 'MENORQUE':
       return +objValue < +rightOp;
-    case '<=':
+    case 'MENORIGUALQUEAJA':
       return +objValue <= +rightOp;
     case 'IGUALQUE':
       return +objValue === +rightOp;
