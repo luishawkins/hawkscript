@@ -52,7 +52,18 @@
             }
         }
         function info() {
-            swal("Instrucciones", "AQUÍ LA AYUDA", "info");
+            swal("Instrucciones", `AQUÍ LA AYUDA 
+            equalityOperator: 'IGUALQUE',
+            equalityOperator: '==',
+            keyword: ['SI', 'SINO', 'TAMBIEN','O','REGRESA', 'IS_MISSING'],
+            keyword: ['IF', 'ELSE', 'AND', 'OR', 'RETURN', 'IS_MISSING'],
+            EJEMPLO 1 
+            m = 2
+            SI ( m IGUALQUE 2 ) REGRESA 345 SINO REGRESA 0
+            EJEMPLO 2
+            x = 2
+            SI ( x > 99 ) REGRESA 1 SI ( x >= 99 ) REGRESA 2 SINO REGRESA 0
+            `, "info");
         }
     </script>
 </body>

@@ -66,7 +66,6 @@ enum LogicalExpressionTypes {
 
 export const validate = async (input: string) => {
   try {
-    // More info @ https://nearley.js.org/docs/parser#catching-errors
     const parser = new nearley.Parser(nearley.Grammar.fromCompiled(grammar));
     parser.feed(input);
     const { results } = parser;
